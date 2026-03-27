@@ -40,7 +40,7 @@ export function activate(context: ExtensionContext) {
 	};
 
 	const clientOptions: LanguageClientOptions = {
-		documentSelector: [{ scheme: 'file', language: 'jq' }],
+		documentSelector: [{ language: 'jq' }],
 	};
 
 	client = new LanguageClient(
